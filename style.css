@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.contenedor_elementos{
+    background-color: rgba(243,234,227,255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_imagen{
+    height: 20rem;
+}
+.contenedor_imagen img{
+    /*width: 62vw; */
+    height: 20rem;
+    width: 85vw;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+.contenedor_contenido{
+    /* width: 62vw; */
+    width: 85vw;
+    height: 41vh;
+    /* width: 20vw;
+    height: 28vh; */
+    background-color: #ffffff;
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+p,h1{
+    text-align: left;
+    padding: 1rem 1rem 0 1.5rem;
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #7d7d85;
+    line-height: 180%;
+}
+.contenedor_subtitulo{
+    font-size: 1.1rem;
+}
+.contenedor_titulo{
+    height: 8rem;
+    font-size: 3rem;
+}
+.contenedor_texto{
+    width: 84vw;
+    font-size: 1.4rem;
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.precio_actual{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 3rem;
+}
+.precio_anterior{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #7d7d85;
+}
+.contenedor_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.icono{
+    padding: 0 1rem 0 0;
+}
+.btn_Add{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    border:none;
+    border-radius: 1rem;
+    width: 28rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
