@@ -114,9 +114,11 @@ html{
 @media (min-width:1440px) {
     .contenedor_elementos{
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .contenedor{
-        height: 100vh;
+        height: 70vh;
         display: flex;
         flex-direction: row;
         align-items: center;
